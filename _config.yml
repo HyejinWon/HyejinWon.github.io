@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Hyejini"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I'm doing my master's in the Kookmin University NLP lab. I'm interesting in NLP and Machine Learning"
   location         : "Seoul"
   email            :
   links:
