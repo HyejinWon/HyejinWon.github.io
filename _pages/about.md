@@ -1,7 +1,7 @@
 ---
-title: "이 블로그 설명서"
+title: "About Me"
 permalink: /about/
 layout: single
 ---
 
-# test
+### Hi there
