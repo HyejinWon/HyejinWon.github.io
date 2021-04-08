@@ -18,6 +18,10 @@ layout: single
 - Chan Jun Park , Hye Jin Won, Pum-Mo Ryu, "Dictionary based Compound Noun Decomposer using Resource extension" In Proceeding of Korea Computer Congress 2018, Jun. 2018.
 
 ---
-### AWARDS & CERTIFICATE
+### AWARDS & CERTIFICATE(License)
 - the Encouragement prize "Semi-Automatic Generation of Universal Dependency Corpus from Sejong Phrase Structured Corpus"  In Proceeding of Korea Software Congress 2019, Dec. 2019.
 - Engineer Information Processing
+- Driver's license
+---
+### Additional Activites
+- (2019-07-01 ~ 2019-12-31) : Teach middle shool student , KB Kookmin Bank
