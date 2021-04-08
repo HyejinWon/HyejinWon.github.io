@@ -25,4 +25,4 @@ layout: single
 
 ---
 ### Additional Activites
-- (2019-07-01 ~ 2019-12-31) : Teach middle shool student , KB Kookmin Bank
+- (2019-07-01 ~ 2019-12-31) : Teach middle shool student, "KB Hope Mentoring"
