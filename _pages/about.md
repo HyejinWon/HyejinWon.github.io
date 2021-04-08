@@ -22,6 +22,7 @@ layout: single
 - the Encouragement prize "Semi-Automatic Generation of Universal Dependency Corpus from Sejong Phrase Structured Corpus"  In Proceeding of Korea Software Congress 2019, Dec. 2019.
 - Engineer Information Processing
 - Driver's license
+
 ---
 ### Additional Activites
 - (2019-07-01 ~ 2019-12-31) : Teach middle shool student , KB Kookmin Bank
