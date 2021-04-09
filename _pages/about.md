@@ -4,7 +4,7 @@ permalink: /about/
 layout: single
 ---
 
-Hi, There. I'm current doing master in Kookmin University. My interesting is Natural Language Processing(NLP) and Machine Learning.
+Hi, There! I'm current Master student in Computer Science at Kookmin University. And I'm part of the Natural Language Processing(NLP) Lab.
 
 ### PAPERS
 
