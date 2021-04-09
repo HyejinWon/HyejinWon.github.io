@@ -20,6 +20,12 @@ Hi, There. I'm current doing master in Kookmin University. My interesting is Nat
 - Chan Jun Park , Hye Jin Won, Pum-Mo Ryu, "Dictionary based Compound Noun Decomposer using Resource extension" In Proceeding of Korea Computer Congress 2018, Jun. 2018.
 
 ---
+### Skills
+- python
+- pytorch
+- numpy
+---
+
 ### AWARDS & CERTIFICATE(License)
 - the Encouragement prize "Semi-Automatic Generation of Universal Dependency Corpus from Sejong Phrase Structured Corpus"  In Proceeding of Korea Software Congress 2019, Dec. 2019.
 - Engineer Information Processing
@@ -28,3 +34,15 @@ Hi, There. I'm current doing master in Kookmin University. My interesting is Nat
 ---
 ### Additional Activites
 - (2019-07-01 ~ 2019-12-31) : Teach middle shool student, "KB Hope Mentoring"
+
+---
+### Education
+**Master** Kookmin University (Seoul,Korea)
+*Master of Computer Science*
+- GPA : 4.33 / 4.5
+- Relevant Coursework : 
+
+**Bachelor** Busan University of Foreign Studies (Busan, Korea)
+*Bachelor of *
+- GPA : 4.04 / 4.5
+- Relevant Coursework : 
