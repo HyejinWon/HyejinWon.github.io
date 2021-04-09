@@ -4,6 +4,8 @@ permalink: /about/
 layout: single
 ---
 
+Hi, There. I'm current doing master in Kookmin University. My interesting is Natural Language Processing(NLP) and Machine Learning.
+
 ### PAPERS
 
 - Seung Shik Kang, Hye Jin Won, Min Haeng Lee, "Analyzing Vocabulary Characteristics of Colloquial Style Corpus and Automatic Construction of Sentiment Lexicon" In Proceeding of The Smart Media Journal, Vol. 9, No. 4, 2020 (KCI).
