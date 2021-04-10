@@ -33,7 +33,7 @@ Hi, There! I'm current Master student in Computer Science at Kookmin University.
 
 ---
 ### Additional Activites
-- (2019-07-01 ~ 2019-12-31) : Teach middle shool student, "KB Hope Mentoring"
+- (2018-02 ~ 2018-07) : Teach middle shool student, "KB Hope Mentoring"
 
 ---
 ### Education
