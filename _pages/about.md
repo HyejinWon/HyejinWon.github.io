@@ -24,8 +24,8 @@ Hi, There! I'm current Master student in Computer Science at Kookmin University.
 - python
 - pytorch
 - numpy
----
 
+---
 ### AWARDS & CERTIFICATE(License)
 - the Encouragement prize "Semi-Automatic Generation of Universal Dependency Corpus from Sejong Phrase Structured Corpus"  In Proceeding of Korea Software Congress 2019, Dec. 2019.
 - Engineer Information Processing
