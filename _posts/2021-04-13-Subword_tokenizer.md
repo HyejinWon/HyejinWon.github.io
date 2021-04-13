@@ -1,6 +1,13 @@
 # Subword tokenizer
 
 ---
+published: true
+layout: single
+title: "Subword Tokenizer"
+category: post
+tags: [NLP, Transformer, tokenizer, GPT]
+use_math: true
+---
 
 ### Tokenizer
 
