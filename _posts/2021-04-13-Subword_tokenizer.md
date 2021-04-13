@@ -1,4 +1,3 @@
-# Subword tokenizer
 ---
 published: true
 layout: single
@@ -7,6 +6,7 @@ category: post
 tags: [NLP, Transformer, tokenizer, GPT]
 use_math: true
 ---
+# Subword tokenizer
 
 ### Tokenizer
 
