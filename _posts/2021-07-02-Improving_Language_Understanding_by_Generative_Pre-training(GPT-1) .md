@@ -1,3 +1,13 @@
+---
+published: true
+layout: single
+title: "Improving Language Understanding by Generative Pre-training"
+category: post
+tags: [NLP, Transformer]
+use_math: true
+---
+
+
 # Improving Language Understanding by Generative Pre-training(GPT-1)
 
 ---
@@ -57,7 +67,7 @@ $$L_1(U) = \sum_i logP(u_i|u_{i-k}, ...,u_{i-1};\theta)$$
 
 GPT-1의 구조는 Transformer decoder를 여러개 쌓아서 LM으로 사용하였다. ~~Multi head self attention은 입력 context 범위를 넘어서도 볼 수 있음.(즉, 원래 방법에서 제제 안했다.)~~
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled.png)
+![Untitled.png](/assets/images/post/2021-07-02/Untitled.png)
 
 h0은 임베딩만 진행하고, h1부터 hn까지는 transformer decoder를 통과하는 것을 확인할 수 있다. 그리고 가장 마지막 transformer decoder의 output을 softmax 해서 조건부 확률P를 구해낸다.
 
@@ -65,7 +75,7 @@ h0은 임베딩만 진행하고, h1부터 hn까지는 transformer decoder를 통
 
 labeled dataset은 x는 토큰들의 시퀀스라 보면 되고, y는 x에 대한 라벨이다. 위의 조건부 확률을 구하는 부분에 있어서 labeled dataset은 가장 마지막 단에 Feedforward Layer를 추가해서 x에 대한 y를 구해낸다.
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%201.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%201.png)
+![Untitled%201.png](/assets/images/post/2021-07-02/Untitled%201.png)
 
 위의 목적함수를 supervised learning dataset(labeled dataset)에도 적용하면 다음과 같다. C는 labeled dataset을 의미한다.
 
@@ -79,7 +89,7 @@ $$L_3(C) = L_2(C)+L_1(C)$$
 
 각 task마다 input의 형식을 다르게 주었는데, 아래 그림에서 직관적으로 확인할 수 있다. 
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%202.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%202.png)
+![Untitled%202.png](/assets/images/post/2021-07-02/Untitled%202.png)
 
 ### Experiments
 
@@ -93,11 +103,11 @@ Model : Transformer Decoder 12개 사용 + masked self-attention, Adam, BPE voca
 
 다양한 task의 supervised dataset으로 실험을 진행해본 결과 가장 좋은 성능을 보이는 것을 확인할 수 있었다.
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%203.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%203.png)
+![Untitled%203.png](/assets/images/post/2021-07-02/Untitled%203.png)
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%204.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%204.png)
+![Untitled%204.png](/assets/images/post/2021-07-02/Untitled%204.png)
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%205.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%205.png)
+![Untitled%205.png](/assets/images/post/2021-07-02/Untitled%205.png)
 
 ### Analysis
 
@@ -105,13 +115,13 @@ Model : Transformer Decoder 12개 사용 + masked self-attention, Adam, BPE voca
 
 Unsupervised data로 학습한 모델을 fine-tuning 에 적용할 때, 각각의 transformer layer는 labeled data 문제를 해결하는데 있어서 매우 유용한 도움을 주는 것으로 확인가능하다.
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%206.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%206.png)
+![Untitled%206.png](/assets/images/post/2021-07-02/Untitled%206.png)
 
 **Zero-shot Behaviors**
 
 연구자들은 근본적인 generative model이 LM capability를 향상시키기 위해 많은 task를 수행하는 법을 배울 수 있고, LSTM과 비교해서 transformer의 attentional memory가 transfer에 도움이 된다고 가정하였다. 이 모델의 또 다른 중요한 성과는 다양한 작업에서 상당한 제로샷 성능이다. 이 논문은 모델이 pre-training으로 인해 질문-응답, 스키마 해상도, 감정 분석 등과 같은 다양한 NLP 작업에서 제로샷 성능으로 진화했음을 입증했다.
 
-![Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%207.png](Improving%20Language%20Understanding%20by%20Generative%20Pre%20616ba60f8d814894880a0065e10679c5/Untitled%207.png)
+![Untitled%207.png](/assets/images/post/2021-07-02/Untitled%207.png)
 
 ### Conclusion
 
