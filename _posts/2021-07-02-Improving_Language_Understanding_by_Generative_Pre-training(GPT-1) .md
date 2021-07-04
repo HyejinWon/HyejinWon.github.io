@@ -62,9 +62,7 @@ Unsupervised pre-training의 목적은 최적의 초기값을 찾는 것이다. 
 **Unsupervised pre-training**
 
 목적 함수는 SGD로 학습되었고, 식은 다음과 같다. k는 context window크기, P는 조건부 확률, $\theta$는 파라미터이다.
-
-$L_1(U) = \sum_i logP(u_i|u_{i-k}, ...,u_{i-1};\theta)$
-
+$$L_1(U) = \sum_i logP(u_i|u_{i-k}, ...,u_{i-1};\theta)$$
 GPT-1의 구조는 Transformer decoder를 여러개 쌓아서 LM으로 사용하였다. ~~Multi head self attention은 입력 context 범위를 넘어서도 볼 수 있음.(즉, 원래 방법에서 제제 안했다.)~~
 
 ![Untitled.png](/assets/images/post/2021-07-02/Untitled.png)
