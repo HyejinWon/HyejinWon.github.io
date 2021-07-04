@@ -76,12 +76,6 @@ labeled dataset은 x는 토큰들의 시퀀스라 보면 되고, y는 x에 대�
 ![Untitled%201.png](/assets/images/post/2021-07-02/Untitled%201.png)
 
 위의 목적함수를 supervised learning dataset(labeled dataset)에도 적용하면 다음과 같다. C는 labeled dataset을 의미한다.
->
-$$
-\lim_{x\to 0}{\frac{e^x-1}{2x}}
-\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
-\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
-$$
 
 $$
 L_2(C) = \sum_{(x,y)} 
