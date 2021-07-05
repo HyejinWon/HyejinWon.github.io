@@ -4,7 +4,7 @@ permalink: /about/
 layout: single
 ---
 
-Hi, There! I'm current Master student in Computer Science at Kookmin University. And I'm part of the Natural Language Processing(NLP) Lab.
+Hi, There! I'm current Master student in Computer Science at Kookmin University. And I'm part of the Natural Language Processing(NLP) Lab. Now, I'm interesting in Typo Error correction and word embedding method.
 
 ### PAPERS
 
