@@ -8,6 +8,7 @@ Hi, There! I'm current Master student in Computer Science at Kookmin University.
 
 ### PAPERS
 
+- Hye jin Won, Seung Shik Kang, "Typo Error Detection and Correction Method in Large-scale Corpus" In Proceeding of Korea Computer Congress 2021, Jun. 2021.
 - Seung Shik Kang, Hye Jin Won, Min Haeng Lee, "Analyzing Vocabulary Characteristics of Colloquial Style Corpus and Automatic Construction of Sentiment Lexicon" In Proceeding of The Smart Media Journal, Vol. 9, No. 4, 2020 (KCI).
 - Hye Jin Won, Hyun Young Lee, Seung Shik Kang, "Multi-prototype Morpheme Embedding for Text Classification" In Proceeding of The 9th International Conference on Smart Media and Applications (SMA 2020), Sep. 2020.
 - Taek-Hyun Kim, Dan-Bi Cho, Hyun Young Lee, Hye Jin Won, Seung Shik Kang, "Sentiment Analysis System by Using BERT Language Model" In Proceeding of The 53rd KIPS FALL CONFERENCE 2020 (The 53rd KIPS FALL CONFERENCE 2020-Online), Nov. 2020.
