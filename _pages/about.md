@@ -25,6 +25,12 @@ Hi, There! I'm current Master student in Computer Science at Kookmin University.
 - python
 - pytorch
 - numpy
+- fairseq
+
+---
+### English Level
+- OPIc IH (2021.07)
+- Toic 835 (2018.11)
 
 ---
 ### AWARDS & CERTIFICATE(License)
